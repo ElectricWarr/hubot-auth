@@ -1,10 +1,16 @@
-# Hubot: hubot-auth
+## Updated
+
+**This fork is intended to implement the PR [here](https://github.com/hubot-scripts/hubot-auth/pull/32) for Hubot 3.x**
+
+My version of Hubot is a frail, ephemeral thing, with almost nothing in the way of persistence. I would _much_ prefer to store roles and the user list in GitHub repo rather than in Hubot's brain.
 
 [![Build Status](https://travis-ci.org/hubot-scripts/hubot-auth.svg?branch=master)](https://travis-ci.org/hubot-scripts/hubot-auth)
 
 Assign roles to users and restrict command access in other scripts.
 
 See [`src/auth.coffee`](src/auth.coffee) for full documentation.
+
+# Hubot: hubot-auth
 
 ## Installation
 
